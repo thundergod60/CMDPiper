@@ -1,6 +1,6 @@
 # CMD Piper - Standalone Accessible Terminal App
-# Version: 2.1.0
-# Author: Vatsal Gautam
+# Version: 1.0
+# Author: Vatsal Gautam/Hades
 #
 # Requirements:
 #   pip install pywinpty wxPython
@@ -115,7 +115,7 @@ def nvda_speak(text: str, interrupt: bool = False) -> bool:
 #  Constants
 # ─────────────────────────────────────────────────────────────────────────────
 APP_NAME    = "CMD Piper"
-APP_VERSION = "2.1.0"
+APP_VERSION = "1.0"
 
 POLL_INTERVAL_MS = 50    # how often we drain the output queue (ms)
 ANNOUNCE_CHUNK   = 250   # max chars sent to NVDA per announcement
